@@ -1,0 +1,232 @@
+.text{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  top: 250px;
+  color: white;
+  font-weight: bold; 
+}
+ 
+.slide{
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./images/picture\ 2.jpeg);
+}
+.imgs{
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./images/picture\ 1.jpeg);
+}
+.carousel-caption{
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial!important;
+}
+.mouse {
+  display: inline-block;
+  height: 44px;
+  width: 28px;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  text-align: center;
+}
+.caption {
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* .mouse:after {
+  height: 8px;
+  width: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  content: "";
+
+  animation: scroll 1.3s ease-out infinite forwards;
+} */
+.flex{
+ margin-left: auto;
+ color: black;
+}
+.brand{
+  font-weight: bold;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+}
+.list{
+  color: black !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 25px;
+  border-bottom: 2px solid #FFE4C4;
+  text-align: center;
+  padding-bottom: 0px;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  height: 35px; 
+}
+.content{
+  margin: 80px 0px 100px 0px;
+  font-family: 'Varela Round', sans-serif;
+}
+.font-serif{
+  font-family: Jomolhari,serif;
+  font-weight: bold;
+}
+.box img{
+  box-shadow: -15px -15px #FFE4C4;
+}
+.btn-special{
+  border: 1px solid black;
+  padding:10px  15px;
+  font-size: 15px;
+  box-shadow: -5px -5px #FFE4C4;
+  background-color:white;
+  font-family: 'Varela Round', sans-serif;
+}
+.font{
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Staatliches', sans-serif;
+  margin: 20px 0px;
+}
+.content-title{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.line {
+  border-bottom: 4px solid white;
+  width: 200px;
+}
+ .content h5{
+  height:2px;
+  width: 150px;
+  text-align: center;
+  background-color: white;
+}
+.carousel-indicators li {
+  background-color: darkgray; 
+}
+.footer{
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  padding:48px 16px;
+  background-color: #000;
+  margin-top: 0px;
+}
+.nav{
+  margin-left: 100px;
+}
+.navlist{
+  color: white !important;
+}
+.projects h1{
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 70px 0px;
+}
+.card-detail{
+  display: flex;
+  margin: 50px 0px;
+}
+.card{
+  width: 280px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px 4px rgb(0 0 0 / 10%);
+}
+.card:hover{
+box-shadow: 0 0 20px  6px rgb(19, 0, 128);
+}
+.cardfirst{
+  height: 100px;
+  padding: 15px;
+  background-size: cover;
+  color: #fff;
+}
+.date {
+  font-size: 11px;
+  font-weight: 600;
+  color: grey;
+}
+.body-content {
+  padding-bottom: 40px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.card-body {
+  padding: 15px;
+  background-color: #fff;
+  /* width: 100%; */
+}
+.project{
+  font-family: inherit;
+  background-color: transparent;
+  color: #341cac;
+  font-size: 15px;
+   transition: .25s;
+}
+.contact h1{
+  font-size: 20px ;
+}
+.form{
+  margin: 20px auto ;
+  width: 50% !important;
+}
+.form .submit{
+  font-size: 14px;
+ background-color: #4A5568 ;
+ border: none;
+ padding: 8px 16px ;
+ border-bottom:  5px solid #2d3748;
+}
+.form .control{
+ border: none;
+ background-color: rgb(238, 236, 236); 
+ padding: 8px 12px; 
+}
+.gallery-text{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'Staatliches', sans-serif;
+  margin: 50px 0px 30px;
+}
+.photoGallery{
+column-count: 3;
+column-width: 35%;
+padding: 0 12px;
+}
+.photo{
+  column-count: 4;
+  column-width: 35%;
+  padding: 0 12px;
+  }
+.headline{
+  font-size: 32px;
+  font-family: 'Space Mono';
+}
+.para{
+  font-size: 18px;
+ font-family: 'Varela Round', sans-serif;;
+}
+.map{
+  width: 50%;
+}
+.map-text{
+  background-color: #1e436e;
+  height: 650px;
+  width: 50%; 
+  font-family: 'Varela Round', sans-serif;
+}
+.map-text h1{
+  font-size: 25px;
+}
+.map-text h5{
+  font-size: 14px;
+}
